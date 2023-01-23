@@ -34,7 +34,7 @@ end
   puts "annnual revenue of men's store", store.annual_revenue
 }
 
-@womens_stores = Store.where(womens_apparel: true, annual_revenue: 0..1000000)
+@womens_stores = Store.where(womens_apparel: true, annual_revenue: ..1000000)
 @womens_stores.each {|store| 
   puts "name of women's store", store.name 
   puts "annnual revenue of women's store", store.annual_revenue
