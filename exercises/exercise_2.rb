@@ -6,6 +6,7 @@ puts "----------"
 
 # Your code goes here ...
 @store1 = Store.first
+puts @store1, "store1"
 @store1.update(name: 'Dollarama')
 @store2 = Store.second
 puts @store2.id
