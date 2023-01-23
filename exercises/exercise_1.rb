@@ -25,5 +25,4 @@ store3 = Store.create do |s|
   s.womens_apparel = false
 end
 
-puts "count", Store.count
-puts store1.name, "store1 name"
+puts "count:", Store.count
